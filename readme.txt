@@ -1,3 +1,7 @@
+modifications :
+
+compiles on Linux Ubuntu 18.04 with opencv 3.2 , works as a cli interface (see modified usage) , writes the resulting matte as a png file.
+
 Bayesian Matting Demo
 
 Author: Yili Zhao (panovr at gmail dot com)

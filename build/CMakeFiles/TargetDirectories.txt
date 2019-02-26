@@ -1,0 +1,3 @@
+/mnt/autofs/shared1/foss-18/Bayesian_Matting/build/CMakeFiles/rebuild_cache.dir
+/mnt/autofs/shared1/foss-18/Bayesian_Matting/build/CMakeFiles/bayesianmatting.dir
+/mnt/autofs/shared1/foss-18/Bayesian_Matting/build/CMakeFiles/edit_cache.dir
