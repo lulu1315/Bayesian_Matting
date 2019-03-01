@@ -12,6 +12,14 @@ vector
 opencv2/core/core.hpp
 -
 
+/mnt/autofs/shared1/foss-18/Bayesian_Matting/bayesian.cpp
+iostream
+-
+climits
+-
+bayesian.h
+/mnt/autofs/shared1/foss-18/Bayesian_Matting/bayesian.h
+
 /mnt/autofs/shared1/foss-18/Bayesian_Matting/bayesian.h
 vector
 -
@@ -23,20 +31,4 @@ opencv2/highgui/highgui.hpp
 -
 Cluster.h
 /mnt/autofs/shared1/foss-18/Bayesian_Matting/Cluster.h
-
-/mnt/autofs/shared1/foss-18/Bayesian_Matting/getopt.h
-
-/mnt/autofs/shared1/foss-18/Bayesian_Matting/main.cpp
-iostream
--
-opencv2/core/core.hpp
--
-opencv2/imgproc/imgproc.hpp
--
-opencv2/highgui/highgui.hpp
--
-getopt.h
-/mnt/autofs/shared1/foss-18/Bayesian_Matting/getopt.h
-bayesian.h
-/mnt/autofs/shared1/foss-18/Bayesian_Matting/bayesian.h
 

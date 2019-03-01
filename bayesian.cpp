@@ -571,8 +571,7 @@ void BayesianMatting::Solve(void)
 
 	while (n < nUnknown)
 	{
-		std::cout << "Starting iteration: " << loop << std::endl;
-
+		//std::cout << "Starting iteration: " << loop << std::endl;
 		cv::erode(unkreg, unkreg, element);
 		cv::bitwise_not(unkreg, unkreg_not);
 		cv::bitwise_and(unkreg_not, unsolvedmask, unkpixels);
@@ -590,8 +589,7 @@ void BayesianMatting::Solve(void)
 			}
 		}
 
-		std::cout << "Found " << toSolveList.size() << " pixels to be solved" << std::endl;
-
+		//std::cout << "Found " << toSolveList.size() << " pixels to be solved" << std::endl;
 		/*cv::imshow("unmask", unmask);
 		cv::imshow("unkreg", unkreg);
 		cv::imshow("not", unkreg_not);
@@ -625,6 +623,7 @@ void BayesianMatting::Solve(void)
 		}
 
 		n = n + toSolveList.size();
+        std::cout << 100*float(n)/float(nUnknown) << "%" << std::endl;
 		loop = loop + 1;
 	}
 
